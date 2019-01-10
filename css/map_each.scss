@@ -1,0 +1,11 @@
+div{
+    width: 100px;
+    height: 100px;
+}
+$colors:(c1: red,c2:green,c3:orange);
+
+@each $k,$c in $colors{
+    .#{$c}-bg{
+        background: $c;
+    }
+}

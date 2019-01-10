@@ -1,0 +1,12 @@
+#mixin{
+    width: 100px;
+    height: 100px;
+    background: rebeccapurple;
+    @include box(0px, 0px, 4px, red);
+}
+@mixin box($x, $y, $blur, $c){
+    -webkit-box-shadow: $x, $y, $blur, $c;
+    -moz-box-shadow: $x, $y, $blur, $c;
+    -ms-box-shadow: $x, $y, $blur, $c;
+    box-shadow: $x, $y, $blur, $c;
+  }

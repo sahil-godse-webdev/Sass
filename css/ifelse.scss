@@ -1,0 +1,14 @@
+@mixin logicif($color) {
+    @if $color== red{
+        background: red;
+    }
+    @else {
+        background: green;
+    }
+}
+
+#ifelse{
+    width: 100px;
+    height: 100px;
+    @include logicif(green);
+}

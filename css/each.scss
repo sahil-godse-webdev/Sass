@@ -1,0 +1,9 @@
+div{
+    width: 100px;
+    height: 100px;
+}
+@each $color in red, green, orange{
+    .#{$color}{
+        background: $color;
+    }
+}

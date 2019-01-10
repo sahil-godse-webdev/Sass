@@ -1,0 +1,6 @@
+Basically Sass (indented CSS)
+and Scss (sassy CSS)
+are different.
+In Scss, it's extension of css i.e, every valid css can be scss file.
+In Sass, we indent instead of brackets for selectors and we put styles in New line instead of semicolon.
+we use .scss and .sass file extensions for scss and sass respectively. 
